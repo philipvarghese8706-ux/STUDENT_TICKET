@@ -1,0 +1,8 @@
+#this fole is meant to protect the env file andd others below..
+#from being uploaded to git hub ...
+
+.env
+.venv
+__pycache__
+*.db
+qrcodes/

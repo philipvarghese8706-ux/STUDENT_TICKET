@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fest admin panel</title>
+        <link rel="stylesheet" href="admin.css">
+    </head>
+    <body>
+
+      <div class="panel">
+        <h1>Fest Ticket Admin</h1>
+        <p class="subtitle">Upload student CSV to generate and send tickets</p>
+
+        <div class="upload-box">
+            <label>Select student CSV file:</label>
+            <input type="file" id="csvFile" accept=".csv">
+            <button id="UploadButton" onclick="uploadCSV()">
+                Generate and send tickets
+            </button>
+        </div>
+
+        <div id="progressBox" class="progress-box hidden">
+          <h3>Progress</h3>
+          <div id="log" class="log"></div>
+          <div id="summary" class="summary"></div>
+        </div>
+
+
+      </div>
+
+      <script src="admin.js"></script>
+
+
+
+
+    </body>
+
+</html>  
+
+
+

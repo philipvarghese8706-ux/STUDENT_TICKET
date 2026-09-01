@@ -1,0 +1,55 @@
+/*here a dot is used for every class named by you.*/
+
+body{
+  background-color: #f4f1ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.ticket{
+  background-color: #1d1d1d;
+  color: white;
+  padding: 32px;
+  border-radius: 16px;
+  width: 280px;
+  text-align: center;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 0 0 0;
+}
+
+.roll{
+  margin: 4px 0 4px 0;
+}
+
+.email{
+  margin: 4px 0 24px 0;
+}
+
+.qr{
+  background-color: white;
+  color: black;
+  height: 160px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.button{
+  background-color: #4ade80;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
